@@ -1,4 +1,3 @@
-/******************** Homework 1 - Reshaping Data ********************/
 libname homework "C:/Irene Hsueh's Documents\MS Applied Biostatistics/BS 803 - Statistical Programming for Biostatisticians/Class 1 - Reshaping Data/Homework 1";
 data homework1;
 	set homework.exercise1;
