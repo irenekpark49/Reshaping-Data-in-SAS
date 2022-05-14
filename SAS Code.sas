@@ -1,7 +1,7 @@
 /******************** Homework 1 - Reshaping Data ********************/
 libname homework "C:/Irene Hsueh's Documents\MS Applied Biostatistics/BS 803 - Statistical Programming for Biostatisticians/Class 1 - Reshaping Data/Homework 1";
 data naac;
-	set homework.naac;
+	set homework.exercise1;
 	keep naccid vnumber sex naccudsd naccageb nacczmms nacczlmi nacczlmd nacczdft;
 	rename naccid=id vnumber=visit naccudsd=cognitive_status naccageb=age_baseline
 		   nacczmms=mmse_score nacczlmi=immediate_score nacczlmd=delayed_score nacczdft=digit_forward;
